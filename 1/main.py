@@ -9,8 +9,8 @@ def read_file(path: str) -> Generator:
 def calculate_calories():
     elves_with_list_of_calories = []
     elves_with_sum_of_calories = []
-    # result = read_file("./1/sample.txt")
-    result = read_file("./1/input.txt")
+    # result = read_file("./sample.txt")
+    result = read_file("./input.txt")
     calories = []
     for row in result:
         try:

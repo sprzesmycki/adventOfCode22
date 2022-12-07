@@ -58,8 +58,8 @@ def get_sign_for_expected_result(exp_result, opp):
 
 
 def calculate_total_score_part1():
-    # file = read_file("./2/sample.txt")
-    file = read_file("./2/input.txt")
+    # file = read_file("./sample.txt")
+    file = read_file("./input.txt")
     score = 0
     for row in file:
         opponent, you = row.split(" ")
